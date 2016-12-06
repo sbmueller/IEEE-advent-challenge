@@ -30,7 +30,6 @@ def get_weekday(diff):
         return weekdays[-daydiff]
     return weekdays[daydiff]
 
-
 def main():
     ncases = int(input())
     for n in range(ncases):
